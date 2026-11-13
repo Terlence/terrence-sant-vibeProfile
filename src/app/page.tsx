@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
 import Nav from "@/components/Nav";
 import Portfolio from "@/components/Portfolio";
+import TwinChat from "@/components/TwinChat";
 import { ScrollProgress } from "@/components/interactive";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Portfolio />
         <Contact />
       </main>
+      <TwinChat />
     </>
   );
 }
